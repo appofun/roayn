@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { CategoryLanding } from "@/components/category-landing";
+export const metadata: Metadata = { title: "Digital Assets", description: "Explore verified ROAYN wallpapers and creative digital assets.", alternates: { canonical: "/categories/digital-assets/" } };
+export default function Page(){return <CategoryLanding name="Digital Assets" intro="Original wallpapers and creative digital products prepared with clear formats, authentic previews, and practical usage information." highlights={["Original creative direction","Clear asset dimensions and formats","Authentic previews","Product-specific delivery details"]} compatibility="File format, dimensions, license terms, and delivery method vary by product. Published listings will state the verified information for each asset."/>}

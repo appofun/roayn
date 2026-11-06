@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { CategoryLanding } from "@/components/category-landing";
+export const metadata: Metadata = { title: "Galaxy Themes", description: "Explore verified ROAYN Galaxy Themes and personalization products.", alternates: { canonical: "/categories/themes/" } };
+export default function Page(){return <CategoryLanding name="Galaxy Themes" intro="Complete personalization experiences built to give Samsung Galaxy devices a cohesive and original visual character." highlights={["Lock and home screen presentation","Coordinated icons and interface elements","AOD previews when available","Authentic owner-supplied previews only"]} compatibility="Galaxy Theme availability can vary by Samsung device, software version, account, region, and Galaxy Store catalog. Product pages will include confirmed preview and compatibility information."/>}

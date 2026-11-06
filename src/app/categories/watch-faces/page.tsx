@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { CategoryLanding } from "@/components/category-landing";
+export const metadata: Metadata = { title: "Watch Faces", description: "Explore verified ROAYN smartwatch faces.", alternates: { canonical: "/categories/watch-faces/" } };
+export default function Page(){return <CategoryLanding name="Watch Faces" intro="Glanceable wearable designs that combine useful information, expressive dials, and considered ambient states." highlights={["Purposeful information hierarchy","Dial and watch-context previews","AOD presentation when available","Verified marketplace and device details"]} compatibility="Watch-face support depends on the watch operating system, model, region, and marketplace. Confirm every requirement on the individual product page before purchase or installation."/>}

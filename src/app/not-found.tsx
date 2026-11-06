@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { ArrowLeft, Search } from "lucide-react";
+export default function NotFound(){return <main className="not-found"><div className="orb orb-one"/><div className="not-found-code">404</div><span className="eyebrow"><span/>Page not found</span><h1>This path hasn&apos;t been built yet.</h1><p>The page may have moved, or the product may not be published.</p><div className="button-row"><Link className="button button-primary" href="/"><ArrowLeft size={16}/>Return home</Link><Link className="button button-secondary" href="/products/"><Search size={16}/>Browse products</Link></div></main>}
