@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#070B14"/><stop offset="1" stop-color="#0D1423"/></linearGradient>
+    <linearGradient id="g" x1="720" y1="100" x2="1080" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset=".48" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#3B82F6" stop-opacity=".3"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="55" height="55" patternUnits="userSpaceOnUse"><path d="M55 0H0V55" fill="none" stroke="#94A3B8" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#grid)"/><circle cx="940" cy="310" r="340" fill="url(#glow)"/>
+  <text x="76" y="115" fill="#22D3EE" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" letter-spacing="6">ROAYN / DIGITAL PRODUCTS</text>
+  <text x="76" y="250" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="73" font-weight="700">Building Digital</text><text x="76" y="334" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="73" font-weight="700">Experiences</text><text x="76" y="418" fill="#A5B4FC" font-family="Arial,Helvetica,sans-serif" font-size="73" font-weight="700">for Tomorrow.</text>
+  <text x="80" y="500" fill="#94A3B8" font-family="Arial,Helvetica,sans-serif" font-size="24">Creating Digital Experiences That Inspire.</text>
+  <g transform="translate(790 145)"><rect width="270" height="340" rx="64" fill="#111A2B" stroke="#94A3B8" stroke-opacity=".2"/><circle cx="135" cy="170" r="107" fill="none" stroke="#3B82F6" stroke-opacity=".35" stroke-dasharray="8 10"/><path d="M77 98c0-10 8-18 18-18h76c49 0 89 40 89 89 0 33-19 63-46 78l46 81h-78l-38-68h-16v68H77V98Zm51 43v58h42a29 29 0 1 0 0-58h-42Z" fill="url(#g)" transform="translate(-29 -6) scale(.78)"/></g>
+</svg>

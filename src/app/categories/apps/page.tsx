@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { CategoryLanding } from "@/components/category-landing";
+export const metadata: Metadata = { title: "Android Applications", description: "Explore verified ROAYN Android applications.", alternates: { canonical: "/categories/apps/" } };
+export default function Page(){return <CategoryLanding name="Android Applications" intro="Original mobile software designed around useful experiences, clear interaction, and dependable delivery." highlights={["Purpose-led application concepts","Touch-friendly, accessible interfaces","Verified official marketplace destinations","Product-specific privacy and support paths"]} compatibility="Android compatibility varies by operating-system version, device, region, and marketplace. Each published product page will state the information confirmed for that release."/>}

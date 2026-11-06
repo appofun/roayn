@@ -1,0 +1,5 @@
+import type { MetadataRoute } from "next";
+import { publishedProducts } from "@/lib/products";
+import { supportArticles } from "@/content/support/articles";
+export const dynamic = "force-static";
+export default function sitemap():MetadataRoute.Sitemap{const base="https://roayn.com";const routes=["","/about/","/products/","/categories/apps/","/categories/themes/","/categories/watch-faces/","/categories/digital-assets/","/technology/","/support/","/contact/","/privacy/","/terms/"];return [...routes.map((route)=>({url:`${base}${route}`,lastModified:new Date("2026-11-06"),changeFrequency:route===""?"weekly" as const:"monthly" as const,priority:route===""?1:0.7})),...publishedProducts.map((product)=>({url:`${base}/products/${product.slug}/`,lastModified:new Date(product.updatedAt),changeFrequency:"monthly" as const,priority:0.8})),...supportArticles.map((article)=>({url:`${base}/support/${article.slug}/`,lastModified:new Date(article.updated),changeFrequency:"monthly" as const,priority:0.5}))]}

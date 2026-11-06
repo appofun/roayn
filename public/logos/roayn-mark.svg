@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">ROAYN geometric R symbol</title>
+  <defs><linearGradient id="g" x1="80" y1="40" x2="440" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset=".48" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+  <rect width="512" height="512" rx="128" fill="#070B14"/>
+  <path d="M92 104c0-33.1 26.9-60 60-60h130c82.8 0 150 67.2 150 150 0 57.1-31.9 106.8-78.9 132.2L434 468H302.6l-65.5-116H210v116H92V104Zm118 54v84h70a42 42 0 1 0 0-84h-70Z" fill="url(#g)"/>
+  <path d="m316 291 85 151" fill="none" stroke="#F8FAFC" stroke-opacity=".78" stroke-width="24" stroke-linecap="round"/>
+</svg>

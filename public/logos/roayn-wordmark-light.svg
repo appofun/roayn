@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="140" viewBox="0 0 560 140" role="img" aria-labelledby="title">
+  <title id="title">ROAYN</title><defs><linearGradient id="g" x1="8" y1="5" x2="126" y2="135" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+  <path d="M14 27c0-8 6-14 14-14h45c29 0 52 23 52 52 0 20-11 37-27 46l27 47H81L58 117H51v41H14V27Zm37 22v31h22a15.5 15.5 0 0 0 0-31H51Z" fill="url(#g)" transform="scale(.82) translate(4 2)"/>
+  <text x="135" y="95" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="65" font-weight="700" letter-spacing="13">ROAYN</text>
+</svg>

@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import { Building2, CircleHelp, Mail, MessagesSquare } from "lucide-react";
+import { ContactComposer } from "@/components/contact-composer";
+import { PageHero } from "@/components/ui";
+
+export const metadata: Metadata = { title: "Contact", description: "Contact ROAYN for product support, business questions, and general inquiries.", alternates: { canonical: "/contact/" } };
+export default function ContactPage() { return <main><PageHero eyebrow="Contact ROAYN" title="Choose the right conversation." copy="Use the form below to prepare an email in your own mail application. No message is uploaded or stored by this static website." /><section className="section"><div className="shell contact-layout"><div className="contact-options"><article><MessagesSquare/><div><h2>General inquiries</h2><p>Questions about ROAYN and the corporate website.</p><span>contact@roayn.com · configuration unverified</span></div></article><article><CircleHelp/><div><h2>Product support</h2><p>Help with a specific published product or marketplace listing.</p><span>support@roayn.com · configuration unverified</span></div></article><article><Building2/><div><h2>Business inquiries</h2><p>Publisher, platform, and professional communications.</p><span>business@roayn.com · configuration unverified</span></div></article><div className="contact-notice"><Mail/><p><strong>Before public launch:</strong> the owner must confirm that email routing is active for every displayed address.</p></div></div><ContactComposer /></div></section></main>; }

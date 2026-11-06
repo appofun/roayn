@@ -1,0 +1,14 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { PageHero } from "@/components/ui";
+export const metadata:Metadata={title:"Terms of Use",description:"Terms governing use of the ROAYN corporate website.",alternates:{canonical:"/terms/"}};
+const sections=[
+  ["Website purpose","This website provides corporate information, a verified product portfolio, support resources, and links to official marketplace listings. Availability of a page does not mean a product has been released unless its status and official store link are shown."],
+  ["Acceptable use","Visitors may use the website for lawful informational and support purposes. Attempts to disrupt, misuse, scrape abusively, or compromise the website or connected services are prohibited."],
+  ["Intellectual property","ROAYN branding, original artwork, website design, copy, and published product assets are protected by applicable intellectual-property laws. Marketplace and platform names belong to their respective owners."],
+  ["Third-party marketplaces","Downloads, purchases, refunds, and platform accounts are governed by the terms of the applicable marketplace. ROAYN does not imply endorsement, approval, or partnership with a platform merely by linking to it."],
+  ["Product information","ROAYN aims to keep published product information accurate. Compatibility, availability, features, and marketplace terms can change. Verify time-sensitive information in the official listing before acting."],
+  ["No warranties","The corporate website is provided on an “as available” basis to the extent permitted by law. This template does not attempt to waive rights that cannot lawfully be waived."],
+  ["Limitation and changes","Any limitation of liability, governing-law clause, dispute process, and final legal identity language require owner and legal confirmation. These terms may be updated when the website or business operations change."],
+] as const;
+export default function TermsPage(){return <main><PageHero eyebrow="Legal" title="Terms of Use" copy="Plain-language terms for the ROAYN corporate website, with unresolved legal details left for owner confirmation."/><article className="section legal-page"><div className="shell narrow-shell"><div className="legal-meta"><span>Effective: owner confirmation required</span><span>Last updated: November 6, 2026</span></div>{sections.map(([title,text])=><section key={title}><h2>{title}</h2><p>{text}</p></section>)}<div className="legal-callout"><strong>Not legal advice</strong><p>This editable template has not been represented as reviewed by legal counsel. Confirm the legal entity status, governing law, contact routing, and product-specific obligations before public reliance.</p></div><p>See the <Link href="/privacy/">Privacy Policy</Link> or <Link href="/contact/">contact page</Link>.</p></div></article></main>}
